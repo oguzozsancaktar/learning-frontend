@@ -31,10 +31,10 @@
   outline: none;
 }
 
-.search.active .input {
+.active .input {
   width: 200px;
 }
 
-.search.active .btn {
+.active .btn {
   transform: translateX(198px);
 }
