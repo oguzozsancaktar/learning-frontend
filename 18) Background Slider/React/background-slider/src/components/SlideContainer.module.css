@@ -1,0 +1,27 @@
+.slider-container {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  height: 70vh;
+  width: 70vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.arrow {
+  position: fixed;
+  color: #fff;
+  background-color: transparent;
+  padding: 20px;
+  font-size: 30px;
+  border: 2px solid orange;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.left-arrow {
+  left: calc(15vw - 65px);
+}
+
+.right-arrow {
+  right: calc(15vw - 65px);
+}
